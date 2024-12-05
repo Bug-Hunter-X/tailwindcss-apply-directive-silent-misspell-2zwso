@@ -1,0 +1,7 @@
+This error occurs when using Tailwind's `@apply` directive with a utility class that doesn't exist or is misspelled.  For example:
+
+```html
+<div class="@apply bg-red-500  bg-greem-500"></div>
+```
+
+Here, `bg-greem-500` is misspelled and will result in the class not being applied and no error message explicitly indicating the typo.
